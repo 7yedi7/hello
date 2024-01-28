@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Copy Code Snippet to Clipboard</title>
+</head>
+<body>
+
+<!-- Textarea to input code -->
+<textarea id="codeSnippet" rows="5" cols="50">
+            button {
+                height: 3em;
+                width: 8em;
+                border: none;
+                border-radius: 10em;
+                background: #016DD9;
+                font-size: 17px;
+                color: #ffffff;
+                font-family: inherit;
+                font-weight: 500;
+               }
+               
+               button:hover {
+                -webkit-animation: shake3856 0.3s linear infinite both;
+                        animation: shake3856 0.3s linear infinite both;
+               }
+               
+               @-webkit-keyframes shake3856 {
+                0% {
+                 -webkit-transform: translate(0);
+                 transform: translate(0);
+                }
+               
+                20% {
+                 -webkit-transform: translate(-2px, 2px);
+                 transform: translate(-2px, 2px);
+                }
+               
+                40% {
+                 -webkit-transform: translate(-2px, -2px);
+                 transform: translate(-2px, -2px);
+                }
+               
+                60% {
+                 -webkit-transform: translate(2px, 2px);
+                 transform: translate(2px, 2px);
+                }
+               
+                80% {
+                 -webkit-transform: translate(2px, -2px);
+                 transform: translate(2px, -2px);
+                }
+               
+                100% {
+                 -webkit-transform: translate(0);
+                 transform: translate(0);
+                }
+               }
+               
+               @keyframes shake3856 {
+                0% {
+                 -webkit-transform: translate(0);
+                 transform: translate(0);
+                }
+               
+                20% {
+                 -webkit-transform: translate(-2px, 2px);
+                 transform: translate(-2px, 2px);
+                }
+               
+                40% {
+                 -webkit-transform: translate(-2px, -2px);
+                 transform: translate(-2px, -2px);
+                }
+               
+                60% {
+                 -webkit-transform: translate(2px, 2px);
+                 transform: translate(2px, 2px);
+                }
+               
+                80% {
+                 -webkit-transform: translate(2px, -2px);
+                 transform: translate(2px, -2px);
+                }
+               
+                100% {
+                 -webkit-transform: translate(0);
+                 transform: translate(0);
+                }
+               }
+</textarea>
+
+<!-- Button to copy code -->
+<button onclick="copyCodeToClipboard()">Copy Code</button>
+
+<script>
+function copyCodeToClipboard() {
+  /* Get the code snippet */
+  var code = document.getElementById("codeSnippet").value;
+
+  /* Create a temporary textarea to hold the code */
+  var tempTextarea = document.createElement("textarea");
+  tempTextarea.value = code;
+
+  /* Append the textarea to the body */
+  document.body.appendChild(tempTextarea);
+
+  /* Select the text inside the textarea */
+  tempTextarea.select();
+  tempTextarea.setSelectionRange(0, 99999); /* For mobile devices */
+
+  /* Copy the text inside the textarea */
+  document.execCommand("copy");
+
+  /* Remove the temporary textarea */
+  document.body.removeChild(tempTextarea);
+
+  /* Alert the user */
+  alert("Code snippet copied to clipboard!");
+}
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

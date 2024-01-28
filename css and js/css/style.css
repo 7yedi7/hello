@@ -1,0 +1,160 @@
+
+.bg-hover{
+    color: white;
+}
+.bg-hover:hover{
+    background-color: #2e2d2d;
+    border-radius: 5px;
+}
+.box{
+    height: 200px;
+    width: 250px;
+    background-color: #E8E8E8;
+    border-radius: 10px;
+}
+.box-bg{
+    height: 500px;
+    width: 500px;
+    background-color: #4a4949;
+    border-radius: 10px;
+}
+.box-bg2{
+    height: 500px;
+    width: 500px;
+    background-color: #4a4949;
+    border-radius: 10px;
+    overflow: scroll;
+    border: 1px solid #4a4949;
+}
+
+.container-s {
+    width: 300px;
+    height: 200px;
+    overflow: scroll; /* Always show both vertical and horizontal scrollbars */
+    border: 1px solid #2b2b2b;
+}
+.scroll-box {
+    width: 900px;
+    height: 100%;
+}
+
+.box-bg2::-webkit-scrollbar {
+    width: 5px;
+    height: 5px; /* Set the width of the scrollbar */
+}
+
+.box-bg2::-webkit-scrollbar-thumb {
+    background-color: #3b3b3b; /* Set the color of the thumb */
+    border-radius: 6px; /* Set the radius of the thumb */
+}
+
+.box-bg2::-webkit-scrollbar-track {
+    background-color: #848383; /* Set the color of the track */
+}
+.bb{
+    display: none;
+}
+.cc{
+    display: none;
+}
+.dd{
+    display: none;
+}
+.active{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .bg-image4 {
+    background-image: url(../img/china.jpg);
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.bg-image5 {
+    background-image: url(../img/plane_1.jpg);
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.bg-shadow {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+a.hover-1 {
+    position: relative;
+    color: white!important;
+}
+
+a.hover-1:hover {
+    color: orange!important;
+}
+
+
+a.hover-1:hover::before {
+    content: '';
+    position: absolute;
+    animation: hover-1 5s infinite;
+    top: 35px;
+    width: 106px;
+    height: 2px;
+    background-color: orange!important;
+    transition: .5s all;
+}
+
+@keyframes hover-1 {
+    0% {
+        width: 0;
+        height: 0;
+    }
+    50% {
+        width: 106px;
+        height: 2px;
+    }
+    75% {
+        width: 0;
+        height: 0;
+    }
+    100% {
+        width: 0;
+        height: 0;
+    }
+
+} */

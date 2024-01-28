@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ýedi</title>
+  <link rel="icon" sizes="332x332" href="./7 logo svg/7.favicon.svg">
+  <link rel="stylesheet" href="./css and js/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css and js/css/icons/bootstrap-icons.css">
+  <link rel="stylesheet" href="./css and js/css/style.css">
+  <link rel="stylesheet" href="./css and js/css/buttonShake.css">
+</head>
+<body style="background-color: #1F1F1F">
+        <div class="container-xxl border">
+          <nav class="navbar navbar-expand-lg border-bottom" style="color: #171717">
+            <div class="container-fluid">
+              <a class="navbar-brand text-white" href="#"><span>
+                <img style="width: 80px;" src="./7 logo svg/7.4.svg"alt="">
+              </span></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span>
+                  <i class="bi bi-filter-right text-white h1"></i>
+                </span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto me-5 ">
+                  <li class="nav-item">
+                    <a class="nav-link active text-primary h3" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white h3" href="#">About us</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link text-white h3" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Our Services
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled text-white h3" href="#" tabindex="-1" aria-disabled="true">Contact us</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                    <button class="btn btn-outline-success me-2 text-white border border-white h3 rounded-0 px-3" type="submit">LOG IN</button>
+                    <button class="btn btn-outline-success text-white bg-success px-4 rounded-0 h3" type="submit">SIGN UP</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="container-xxl border">
+          <div class="row ps-2">
+          <div class="col-2 pt-2 border-end">
+            <div class="bg-hover h4 ps-3 py-2">
+              All
+            </div>
+            <div>
+              <a onclick="shBox(1)" class="bg-hover h5 ps-3 py-2 text-decoration-none">Buttons</a>
+            </div>
+            <div class="bg-hover h5 ps-3 py-2">
+              Checkbox
+            </div>
+            <div class="bg-hover h5 ps-3 py-2">
+              Toggle btn
+            </div>
+            <div class="bg-hover h5 ps-3 py-2">
+              Cards
+            </div>
+            <div class="bg-hover h5 ps-3 py-2">
+              Loaders
+            </div>
+            <div class="bg-hover h5 ps-3 py-2">
+              Inputs
+            </div>
+            <div class="bg-hover h5 ps-3 py-2">
+              Radio btn
+            </div>
+            <div class="bg-hover h5 ps-3 py-2">
+              Forms
+            </div>
+            <div class="bg-hover h5 ps-3 py-2">
+              Patterns
+            </div>
+            <div class="bg-hover h5 ps-3 py-2">
+              Tooltips
+            </div>
+          </div>
+          <div class="col-10 ps-3 dd" id="dd1">
+            <div class="h1 text-white">
+              Browse All
+            </div>
+            <div class="row g-0">
+              <div class="col-3">
+                <a onclick="callMultipleFunctions()">
+                  <div class="box d-flex justify-content-center align-items-center">
+                    <div class="button1 d-flex align-items-center justify-content-center "> Shake
+                    </div>
+                </div>
+              </a>
+              </div>
+              <div class="col-3">
+                <a onclick="MultipleFunctions()">
+                  <div class="box d-flex justify-content-center align-items-center">
+                    <div class="button1 d-flex align-items-center justify-content-center "> Sh
+                    </div>
+                </div>
+              </a>
+              </div>
+              <div class="col-3">
+                <div class="box d-flex justify-content-center align-items-center">
+                  
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="box d-flex justify-content-center align-items-center">
+                  
+                </div>
+              </div>
+            <div class="row g-0 py-3">
+              <div class="col-3">
+                <div class="box d-flex justify-content-center align-items-center">
+                  
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="box d-flex justify-content-center align-items-center">
+                  
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="box d-flex justify-content-center align-items-center">
+                  
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="box d-flex justify-content-center align-items-center">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-10 ps-3 pt-3 dd" id="dd2">
+          <span>
+            <a href="./index.html" class="text-decoration-none h5 bg-hover px-3 py-2">Go to back</a>
+          </span>
+          <div class="row pt-4">
+            <div class="col-6">
+                <div class="box-bg d-flex justify-content-center align-items-center">
+                    <div class="button1 d-flex align-items-center justify-content-center "> Shake
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="box-bg2">
+                    <div class="scroll-box">
+                        <div class="d-flex border-bottom ps-3" style="background-color: #1F1F1F;">
+                            <button onclick="showBox(1)" class="bg-hover px-3 h5">HTML</button>
+                            <button onclick="showBox(2)" class="bg-hover px-3 h5">CSS</button> 
+                        </div>
+                        <div class="cc" id="cc1">
+                          <div class="bb" id="bb1">
+                            <pre>
+                                <code class="text-white">
+                                    <button> Shake
+                                    </button>
+                                </code>
+                            </pre>
+                                                        </div>
+                                                        <div class="bb" id="bb2">
+                            <pre>
+                                <code class="text-white">
+                                    button {
+                                        height: 3em;
+                                        width: 8em;
+                                        border: none;
+                                        border-radius: 10em;
+                                        background: #016DD9;
+                                        font-size: 17px;
+                                        color: #ffffff;
+                                        font-family: inherit;
+                                        font-weight: 500;
+                                       }
+                                       
+                                       button:hover {
+                                        -webkit-animation: shake3856 0.3s linear infinite both;
+                                                animation: shake3856 0.3s linear infinite both;
+                                       }
+                                       
+                                       @-webkit-keyframes shake3856 {
+                                        0% {
+                                         -webkit-transform: translate(0);
+                                         transform: translate(0);
+                                        }
+                                       
+                                        20% {
+                                         -webkit-transform: translate(-2px, 2px);
+                                         transform: translate(-2px, 2px);
+                                        }
+                                       
+                                        40% {
+                                         -webkit-transform: translate(-2px, -2px);
+                                         transform: translate(-2px, -2px);
+                                        }
+                                       
+                                        60% {
+                                         -webkit-transform: translate(2px, 2px);
+                                         transform: translate(2px, 2px);
+                                        }
+                                       
+                                        80% {
+                                         -webkit-transform: translate(2px, -2px);
+                                         transform: translate(2px, -2px);
+                                        }
+                                       
+                                        100% {
+                                         -webkit-transform: translate(0);
+                                         transform: translate(0);
+                                        }
+                                       }
+                                       
+                                       @keyframes shake3856 {
+                                        0% {
+                                         -webkit-transform: translate(0);
+                                         transform: translate(0);
+                                        }
+                                       
+                                        20% {
+                                         -webkit-transform: translate(-2px, 2px);
+                                         transform: translate(-2px, 2px);
+                                        }
+                                       
+                                        40% {
+                                         -webkit-transform: translate(-2px, -2px);
+                                         transform: translate(-2px, -2px);
+                                        }
+                                       
+                                        60% {
+                                         -webkit-transform: translate(2px, 2px);
+      transform: translate(2px, 2px);
+                                        }
+                                       
+                                        80% {
+-webkit-transform: translate(2px, -2px);
+                                         transform: translate(2px, -2px);
+                                        }
+                                       
+                                        100% {
+                                         -webkit-transform: translate(0);
+                                         transform: translate(0);
+   }
+                                       }
+                                                               
+                                </code>
+                            </pre>
+                                                        </div>
+                        </div>
+
+                        <div class="cc" id="cc2">
+                          <div class="bb" id="bb1">
+                            <pre>
+                                <code class="text-white">
+                                    <button> Shake
+                                    </button>
+                                </code>
+                            </pre>
+                                                        </div>
+                                                        <div class="bb" id="bb2">
+                            <pre>
+                                <code class="text-white">
+          button {}   dfswfwsf
+          fwefadsf
+          asdfad
+          fsadf
+          asdfasd         
+                                </code>
+                            </pre>
+                                                        </div>
+                        </div>
+
+                   </div>
+                </div>
+            </div>
+          </div>
+      </div>
+
+
+        </div>
+        <script>
+          function shBox(boxNumb) {
+              // Hide all boxes
+              document.querySelectorAll('.dd').forEach(dd => {
+                  dd.classList.remove('active');
+              });
+      
+              // Show the selected box
+              document.getElementById('dd' + boxNumb).classList.add('active');
+          }
+      </script>
+      <script src="./css and js/js/bootstrap.bundle.min.js"></script>
+      <script>
+        function showBox(boxNumber) {
+            // Hide all boxes
+            document.querySelectorAll('.bb').forEach(bb => {
+                bb.classList.remove('active');
+            });
+
+            // Show the selected box
+            document.getElementById('bb' + boxNumber).classList.add('active');
+        }
+    </script>
+    <script>
+      function shoBox(boxNumber) {
+          // Hide all boxes
+          document.querySelectorAll('.cc').forEach(cc => {
+              cc.classList.remove('active');
+          });
+
+          // Show the selected box
+          document.getElementById('cc' + boxNumber).classList.add('active');
+      }
+  </script>
+  <script>
+    function shBox(boxNumb) {
+        // Hide all boxes
+        document.querySelectorAll('.dd').forEach(dd => {
+            dd.classList.remove('active');
+        });
+
+        // Show the selected box
+        document.getElementById('dd' + boxNumb).classList.add('active');
+    }
+</script>
+<script>
+  function callMultipleFunctions() {
+    shoBox(1);
+    shBox(2);
+  }
+</script>
+<script>
+  function MultipleFunctions(){
+    shoBox(2);
+    shBox(2);
+  }
+</script>
+</body>
+</html>
+
+        <!-- <div class="container-xxl">
+          <pre class="text-white ">
+            <code>
+              function greet(name) {
+                console.log("Hello, " + name + "!");
+              }
+        
+              // Call the greet function
+              greet("World");
+            </code>
+          </pre>
+        </div> -->
